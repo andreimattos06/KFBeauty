@@ -1,0 +1,430 @@
+/* Cor Rosa: #fec8c8 e Cor Letra Rosa Escuro: #853d3e */
+
+.cabecalho{
+	background-color: #fec8c8;
+	font-family: "Lucida Handwriting", Times, serif;
+	color: #853d3e;
+	max-width: 100%;
+
+}
+
+.btnAgendamentos{
+	background-color: #853d3e;
+	color: #fec8c8;
+}
+
+.linkcabecalho{
+	color: #853d3e;
+	border-radius: 5px;
+
+}
+
+a.linkcabecalho:link{
+	color: #853d3e;
+	border-radius: 5px;
+
+}
+
+a.linkcabecalho:visited{
+	color: #853d3e;
+	border-radius: 5px;
+}
+
+a.linkcabecalho:hover{
+	border-radius: 5px;
+	color: #853d3e;
+	background-color: #853d3e;
+	color: #fec8c8;
+
+}
+
+.custom-popover {
+  --bs-popover-max-width: 200px;
+  --bs-popover-border-color: var(--bs-primary);
+  --bs-popover-header-bg: var(--bs-primary);
+  --bs-popover-header-color: var(--bs-dark);
+  --bs-popover-body-padding-x: 1rem;
+  --bs-popover-body-padding-y: .5rem;
+  color: #853d3e
+}
+
+
+body, html, #home{
+	height: 100%;
+	background-color: #fec8c8;
+	/* overflow-x: hidden; Hide horizontal scrollbar */
+}
+
+.conteudo1 {
+	background-color: #853d3e;
+	color: #fec8c8;
+	font-family: "Georgia", Times, serif;
+	text-align: justify;
+	font-weight: 900;
+	letter-spacing: -0.05em;
+}
+
+
+.conteudo2 {
+	background-color: fec8c8;
+	color: #853d3e;
+	font-family: "Georgia", Times, serif;
+	text-align: justify;
+	font-weight: 900;
+	letter-spacing: -0.05em;
+}
+
+h2, h4 #conteudo2{
+	color: #853d3e;
+}
+
+h2, h4 #conteudo1{
+	color: #fec8c8;
+
+}
+
+.titulotexto1{
+	font-weight: bold;
+	color: #fec8c8;
+	font-size: 3em;
+    font-family: "Georgia", Times, serif;
+    padding-bottom: 40px;
+}
+
+.titulotexto2{
+	font-weight: bold;
+	color: #853d3e;
+	font-size: 3em;
+    font-family: "Georgia", Times, serif;
+    padding-bottom: 40px;
+}
+
+
+.dropProcedimentos{
+	background-color: #853d3e;
+	color: #fec8c8;
+	border-color: black;
+}
+
+a.dropProcedimentos:visited{
+	background-color: #853d3e;
+	color: #fec8c8;
+	
+}
+
+a.dropProcedimentos:link{
+	background-color: #853d3e;
+	color: #fec8c8;
+	
+}
+
+a.dropProcedimentos:hover{
+	background-color: #fec8c8;
+	color: #853d3e;
+	
+}
+
+.dropContatos{
+	background-color: #853d3e;
+	color: #fec8c8;
+	border-color: black;
+	text-decoration: none;
+}
+
+a.dropContatos:visited{
+	background-color: #853d3e;
+	color: #fec8c8;
+	
+}
+
+a.dropContatos:link{
+	background-color: #853d3e;
+	color: #fec8c8;
+	
+}
+
+a.dropContatos:hover{
+	background-color: #853d3e;
+	color: #fec8c8;
+	
+}
+
+.cabecalhoContato{
+	color: #fec8c8;
+	pointer-events: none;
+  	cursor: default;
+  	font-weight: bold;
+}
+
+@keyframes botaoagendamento{
+	from {background-color: #fec8c8; color: #853d3e;}
+    to {background-color: #853d3e; color: #fec8c8; border: 1px solid black; }
+}
+
+.botaoagendamento{
+	animation-name: botaoagendamento;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes botaoagendamento2{
+	from {background-color: #853d3e; color: #fec8c8; border: 1px solid black;}
+    to {background-color: #fec8c8; color: #853d3e; }
+}
+
+.botaoagendamento2{
+	animation-name: botaoagendamento2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+
+
+@keyframes lashAntes{
+	from {transform: translateX(300px); opacity: 0.0;}
+	to {transform: translateX(-300px) opacity: 1.0;}
+	
+}
+
+@keyframes lashDepois{
+	from {transform: translateX(-300px); opacity: 0.0;}
+	to {transform: translateX(300px) opacity: 1.0;}
+	
+}
+
+
+
+.rodape{
+	background-color: black;
+	
+	padding-top: 15px;
+	padding-bottom: 10px;
+	padding-top: 25px;
+}
+
+.letraRodape{
+	color: whitesmoke;
+	font-family: "Monaco", Times, serif;
+	font-size: 1em;
+	font-weight: bold;
+
+}
+
+.titulosRodape{
+	color: lightgray;
+	font-family: "Monaco", Times, serif;
+	font-size: 1em;
+	font-weight: bold;
+
+}
+
+a.letraRodape:visited{
+	color: whitesmoke;
+	font-family: "Monaco", Times, serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.letraRodape:link{
+	color: whitesmoke;
+	font-family: "Monaco", Times, serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.letraRodape:hover{
+	color: whitesmoke;
+	font-family: "Monaco", Times, serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+
+/* Excluir depois */
+
+.bordateste{
+
+	border: 2px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+	.titulotexto2{
+	font-weight: bold;
+	color: #853d3e;
+	font-size: 2.3em;
+    font-family: "Georgia", Times, serif;
+    padding-bottom: 40px;
+    padding-top: 10%;
+	}
+
+	.titulotexto1{
+	font-weight: bold;
+	color: #fec8c8;
+	font-size: 2.3em;
+    font-family: "Georgia", Times, serif;
+    padding-bottom: 40px;
+    padding-top: 10%;
+	}
+
+	.btn-custom{
+		margin: 10px 15px;
+	}
+
+
+	h5.legendaFoto{
+		font-size: 1em;
+	}
+
+	.margemCel h2{
+		margin: 0 10% 0 10%;
+		font-size: 1.7em;
+	}
+
+	.margemCel h5{
+		margin: 0 10% 0 10%;
+		font-size: 1.2em;
+	}
+
+	.divCarousel{
+		margin: 0 6%;
+	}
+
+	.rowBotao{
+		padding-bottom: 7%;
+		padding-top: 5%;
+		margin: 0%;
+
+	}
+
+	.rowLashs{
+		padding: 0 11%;
+	}
+
+	.rowHidra{
+		margin-right: 7%;
+		margin-left: 7%;
+		margin-top: 1%;
+	}
+
+	.rowHidra.primeiro{
+		margin-right: 7%;
+		margin-left: 7%;
+		margin-top: 8%;
+	}
+
+	.titulosRodape.rodapeMeio{
+		margin-top: 5%;
+	}
+
+	
+
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	h2{
+		font-size: 2em;
+
+	}
+
+	h5{
+		font-size: 1em;
+	}
+
+	.titulotexto2{
+	font-weight: bold;
+	color: #853d3e;
+	font-size: 2em;
+    font-family: "Georgia", Times, serif;
+    padding-bottom: 40px;
+    padding-top: 1%;
+	}
+
+	.titulotexto1{
+	font-weight: bold;
+	color: #fec8c8;
+	font-size: 2em;
+    font-family: "Georgia", Times, serif;
+    padding-bottom: 40px;
+    padding-top: 1%;
+	}
+
+	.divCarousel{
+	margin: 0 0%; 
+	}
+
+	.titulosRodape.rodapeMeio{
+		margin-top: 5%;
+	}
+
+	.rowHidra{
+		margin-top: 1%;
+	}
+
+	.rowHidra.primeiro{
+		margin-top: 8%;
+	}
+	
+	
+}
+
+
+
+/* Medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991.98px)) { 
+	h1{
+		font-size: 4em;
+
+	}
+
+	.btn-custom{
+		margin: 10px 15px;
+	}
+
+	.divCarousel{
+	margin: 0 13%; 
+	}
+
+ }
+
+/* Large devices (desktops, less than 1200px)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	h1{
+		font-size: 5em;
+
+	}
+	.divCarousel{
+	margin: 0 13%; 
+	}
+
+ }
+
+ @media (min-width: 1200px){
+ 	h1{
+		font-size: 6em;
+
+	}
+	.divCarousel{
+	margin: 0 13%; 
+	}
+ }
